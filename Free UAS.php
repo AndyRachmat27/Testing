@@ -15,8 +15,8 @@ echo "Jumlah kata: $hasil buah kata <br>";
 echo "<br>";
 
 echo "2. Mencari kata tertentu dan hitung kata yang sama <br>";
-foreach($data as $i => $x_value) {
-    echo $i." ada ".$x_value." kata";
+foreach($data as $x => $x_value) {
+    echo $x." ada ".$x_value." kata";
     echo "<br>";
 }
 echo "<br>3.Urutkan kata-kata dari angka atau huruf a-z<br>";
